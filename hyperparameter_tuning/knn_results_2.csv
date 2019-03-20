@@ -1,0 +1,12 @@
+mean_fit_time|std_fit_time|mean_score_time|std_score_time|param_smote|param_selectpercentile__percentile|param_pca|param_kneighborsclassifier__n_neighbors|param_featureunion__neigh_pipeline__encoder|params|split0_test_score|split1_test_score|mean_test_score|std_test_score|rank_test_score|split0_train_score|split1_train_score|mean_train_score|std_train_score
+1.3850841522216797|0.6882491111755371|13.508292198181152|2.7618632316589355|"RandomUnderSampler(random_state=None, ratio='auto', replacement=False,
+          return_indices=False)"|30||15|"OneHotEncoder(categorical_features=None,
+       categories=[array([ 3,  4,  6,  8, 11, 13, 17, 24, 26, 32, 36, 39, 43, 49, 50, 51, 55,
+       60, 61, 68])],
+       dtype=<class 'numpy.float64'>, handle_unknown='ignore',
+       n_values=None, sparse=False)"|"{'smote': RandomUnderSampler(random_state=None, ratio='auto', replacement=False,
+          return_indices=False), 'selectpercentile__percentile': 30, 'pca': None, 'kneighborsclassifier__n_neighbors': 15, 'featureunion__neigh_pipeline__encoder': OneHotEncoder(categorical_features=None,
+       categories=[array([ 3,  4,  6,  8, 11, 13, 17, 24, 26, 32, 36, 39, 43, 49, 50, 51, 55,
+       60, 61, 68])],
+       dtype=<class 'numpy.float64'>, handle_unknown='ignore',
+       n_values=None, sparse=False)}"|0.7047672775018506|0.7199598138528992|0.712363545677375|0.007596268175524279|1|0.6982660940111763|0.7315444971462133|0.7149052955786948|0.01663920156751847
